@@ -1,8 +1,20 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>ServiceDesk</title>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Mon, 23 Nov 2026 23:49:34 +0200</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/Lumyk/servicedesk-releases/releases/download/v1.0.0/ServiceDesk-1.0.0-arm64.zip" length="23275131" type="application/octet-stream" sparkle:edSignature="Bc+B3D6obDn8yIu9axc7sTc0oqDjDGmE8LEQsvMObhntcc7pwyluT6upq+8xSTuwisQ/KvzYFYWVEUQC+lSJCA=="/>
+        </item>
         <item>
             <title>0.9.9</title>
             <pubDate>Mon, 23 Nov 2026 23:32:49 +0200</pubDate>
@@ -11,10 +23,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:shortVersionString>0.9.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/Lumyk/servicedesk-releases/releases/download/v0.9.9/ServiceDesk-0.9.9-arm64.zip" length="23275253" type="application/octet-stream" sparkle:edSignature="5IlQRK9CJKoQlhqAHiVCDNkOs3AYrcDtL1fDy5e12iggwrASCYm//hy2XGGjNpAV7yeYx+OLfii4I0COxwlHBA=="></enclosure>
+            <enclosure url="https://github.com/Lumyk/servicedesk-releases/releases/download/v0.9.9/ServiceDesk-0.9.9-arm64.zip" length="23275253" type="application/octet-stream" sparkle:edSignature="5IlQRK9CJKoQlhqAHiVCDNkOs3AYrcDtL1fDy5e12iggwrASCYm//hy2XGGjNpAV7yeYx+OLfii4I0COxwlHBA=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: oiy0olVEk+8nXYxuYK1e8yFRmMAzEHcPSDs76rszH6jOfR9dXReD4bNpnUVNUX9WGdNKyTqgdktW+EWolkcDAA==
-length: 1194
+</rss>
+<!-- sparkle-signatures:
+edSignature: zrfc6cCD09mfTSbol2cGOAiVpcr7ZMW2mM3d3XMVJzq652/fcB0mOp6igQoAkItd9/Iv5THJF8jHqE1h6wneCQ==
+length: 1937
 -->
