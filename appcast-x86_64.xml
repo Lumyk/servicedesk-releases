@@ -1,8 +1,19 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>ServiceDesk</title>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Thu, 26 Nov 2026 22:43:45 +0200</pubDate>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/Lumyk/servicedesk-releases/releases/download/v1.0.1/ServiceDesk-1.0.1-x86_64.zip" length="25454651" type="application/octet-stream" sparkle:edSignature="WpR8CHw816RllG7GnP01ix08CKJw7+oy5vKWASCq1M/4dnpgtLXlyvik/FoFdZZU5W8+uM3iFOmCdVgIEkq3BA=="/>
+        </item>
         <item>
             <title>1.0.0</title>
             <pubDate>Tue, 24 Nov 2026 00:02:58 +0200</pubDate>
@@ -10,10 +21,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
             <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/Lumyk/servicedesk-releases/releases/download/v1.0.0/ServiceDesk-1.0.0-x86_64.zip" length="25281921" type="application/octet-stream" sparkle:edSignature="oGL0ptH08fdO9ZgmVo9It6Eag5zd2UMT4SJNu1eApR+Gf5jOgjBZ++bQ0q8fUnriAn61Y9bUrBi8hvwb8b/ECQ=="></enclosure>
+            <enclosure url="https://github.com/Lumyk/servicedesk-releases/releases/download/v1.0.0/ServiceDesk-1.0.0-x86_64.zip" length="25281921" type="application/octet-stream" sparkle:edSignature="oGL0ptH08fdO9ZgmVo9It6Eag5zd2UMT4SJNu1eApR+Gf5jOgjBZ++bQ0q8fUnriAn61Y9bUrBi8hvwb8b/ECQ=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: Nj/DzEkoBTqprdfIfZ02BiJt6Qg4PYDPWvPV0oujU7xB/TttORWThadFieD+TEmvhMVS51Izb6GEY2WE2wgZBQ==
-length: 1116
+</rss>
+<!-- sparkle-signatures:
+edSignature: e92gONpGx5chrxEAqC14oTw71jVENykDqHKrVDBaVNCoZpX8bCgcNrA5GSH1bmW0iKwOiu0SCNaC61h0mJE8CQ==
+length: 1781
 -->
